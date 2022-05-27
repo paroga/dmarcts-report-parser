@@ -132,3 +132,12 @@ The following options are always allowed:
 ```
 
 More info can currently be found at : [TechSneeze.com](http://www.techsneeze.com/how-parse-dmarc-reports-imap/)
+
+### Usage via Docker
+
+You can run dmarcts-report-parser via Docker:
+
+```sh
+$ docker run --rm --volume $PWD:/ \
+  ghcr.io/techsneeze/dmarcts-report-parser [OPTIONS] [PATH]
+```
